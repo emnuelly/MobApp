@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgEstrela5"
+        android:layout_width="23dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/btn_star_big_off"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imgEstrela4"
+        android:layout_width="23dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imgEstrela3"
+        android:layout_width="23dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imgEstrela2"
+        android:layout_width="23dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imgVeiculoPequeno2"
+        android:layout_width="114dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/veiculo"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageView
+        android:id="@+id/imgVeiculoGrande"
+        android:layout_width="215dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/veiculo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <TextView
+        android:id="@+id/txtNomeModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="EcoSport 16v 2018"
+        android:textAlignment="viewStart"
+        android:textColor="@color/azulPadrao"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txtNomeMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca: Ford"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageView
+        android:id="@+id/imgVeiculoPequeno1"
+        android:layout_width="113dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/veiculo"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/btnAlugar"
+        android:layout_width="152dp"
+        android:layout_height="38dp"
+        android:background="@color/azulPadrao"
+        android:fontFamily="@font/arial"
+        android:text="Quero Alugar!"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <ImageView
+        android:id="@+id/imgEstrela1"
+        android:layout_width="23dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txtEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/txtNomeEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="Av Brigadeiro, n° 57 - São Paulo"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/txtCor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cor:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/txtNomeCor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amarelo"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <TextView
+        android:id="@+id/txtAcessorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acessórios:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/txtNomeAcessorio"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:text="Ar condicionado, tela de video, cambio automático"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -11,17 +11,17 @@
         android:id="@+id/edtCadNome"
         android:layout_width="375dp"
         android:layout_height="41dp"
-        android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:ems="10"
         android:hint="Nome Completo"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="69dp"
+        android:textColor="#fff"
         android:textColorHint="#fff"
-        android:textColor="#fff" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="86dp" />
 
     <EditText
         android:id="@+id/edtCadEmail"
