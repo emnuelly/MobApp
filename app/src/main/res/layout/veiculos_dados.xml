@@ -88,7 +88,6 @@
         android:layout_width="152dp"
         android:layout_height="38dp"
         android:background="@color/azulPadrao"
-        android:fontFamily="@font/arial"
         android:text="Quero Alugar!"
         android:textColor="#fff"
         android:textStyle="bold"
